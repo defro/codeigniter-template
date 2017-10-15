@@ -654,7 +654,7 @@ class Template
 		}
 
 		// Base view folder
-		$view_folder = APPPATH.'views/';
+		$view_folder = FCPATH.'vendor/philsturgeon/codeigniter-template/src/views/themes/';
 
 		// Using a theme? Put the theme path in before the view folder
 		if ( ! empty($this->_theme))
