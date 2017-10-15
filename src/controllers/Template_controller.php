@@ -22,13 +22,16 @@ class Template_controller extends CI_Controller
 	 * Index Page for this controller.
 	 *
 	 * Maps to the following URL
-	 *        http://example.com/index.php/template
+	 *        http://example.com/index.php/template_controller
 	 *    - or -
-	 *        http://example.com/index.php/template/index
+	 *        http://example.com/index.php/template_controller/index
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$this->template
+			->set_layout('default')
+			->build('welcome_message')
+		;
 	}
 
 }
