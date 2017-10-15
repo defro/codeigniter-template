@@ -85,5 +85,5 @@ $config['theme'] = '';
 */
 
 $config['theme_locations'] = array(
-	APPPATH.'themes/'
+	FCPATH.'vendor/philsturgeon/codeigniter-template/src/views/themes/'
 );
