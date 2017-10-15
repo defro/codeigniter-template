@@ -8,6 +8,5 @@
     },
     "autoload": {
         "files": ["src/librairies/Template.php"]
-        }
     }
 }
