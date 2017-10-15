@@ -5,5 +5,10 @@
     "minimum-stability": "stable",
     "require": {
         "php" : ">=5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeIgniter\\Template\\": "src/librairies"
+        }
     }
 }
