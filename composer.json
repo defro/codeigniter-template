@@ -4,7 +4,7 @@
     "type": "library",
     "minimum-stability": "stable",
     "require": {
-        "php" : ">=5.2",
+        "php" : ">=5.2"
     },
     "autoload": {
         "files": [ "src/libraries/Template.php" ]
