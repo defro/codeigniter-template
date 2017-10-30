@@ -1,18 +1,12 @@
 {
     "name": "philsturgeon/codeigniter-template",
     "description": "Template library for CodeIgniter which supports modules, themes, partial views, etc.",
-    "type": "codeigniter-third-party",
+    "type": "library",
     "minimum-stability": "stable",
     "require": {
         "php" : ">=5.2",
-        "composer/installers": "~1.0"
     },
     "autoload": {
         "files": [ "src/libraries/Template.php" ]
-    },
-    "extra": {
-        "installer-paths": {
-            "application/third_party/{$name}/": ["src"]
-        }
     }
 }
